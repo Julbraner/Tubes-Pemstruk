@@ -48,16 +48,16 @@ html {
 
 /* DARKMODE START */
 .darkmode, .darkmode.services-list {
-  background-color: black;
-  color: #6f1644;
+  background-color: rgb(30, 31, 30);
+  color: #1f1e1e;
 }
 
 .darkmode.header,.darkmode .footer, .darkmode .footerr, .darkmode .Services{
-  background-color: #1b0d04;
+  background-color: rgb(15, 15, 15);
 }
 
 .darkmode #about, .darkmode #contact{
-  background-color: #221c377b;
+  background-color: rgb(31, 16, 0);
   color: white;
 }
 
@@ -66,8 +66,8 @@ html {
 }
 
 .darkmode #home, .darkmode #services .darkmode #footer{
-  background-color: black;
-  color: #fefcf3;
+  background-color: rgb(15, 15, 15);
+  color: #f5cc16;
 }
 /* DARKMODE END */
 
@@ -164,7 +164,7 @@ span {
   font-size: 350%;
   padding-bottom: 5%;
   padding-right: 50px;
-  color:  #000000;
+  color:#000000;
   text-align: center;
 }
 
@@ -276,7 +276,7 @@ span {
 
 .contact .max-width h1 {
   font-size: 350%;
-  color: #3f5255;
+  color: #000000;
   text-align: center;
   padding-bottom: 10px;
 }
