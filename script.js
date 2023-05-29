@@ -37,8 +37,25 @@ function scrollUp() {
 window.addEventListener("scroll", scrollUp);
 
 // POP Up
-const readMoreLink = document.getElementById("readMoreLink");
-readMoreLink.addEventListener("click", function (event) {
-  event.preventDefault(); // Mencegah perilaku default dari elemen <a>
-  alert("Ini adalah pop-up!");
+$(document).ready(function() {
+  $('.popup-link-1').magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
+
+  $('.popup-link-2').magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
+
+  $('.popup-link-3').magnificPopup({
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
 });
