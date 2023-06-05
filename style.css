@@ -178,17 +178,18 @@ span {
   border-radius: 50%;
   padding-right: 30px;
   padding-left: 30px;
+  margin: 0 auto;
 }
 
 .aboutvero p{
-  text-align: justify;
+  text-align: center;
   padding-right: 60px;
   font-size: 0.8rem;
   padding-bottom: 20%;
 } 
 
 .aboutsyfa p{
-  text-align: justify;
+  text-align: center;
   font-size: 0.8rem;
 }
 .aboutvero h2,
