@@ -147,11 +147,12 @@ span {
 }
 /* HOME END */
 
+/* ABOUT START */
 .about {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Menengahkan konten secara horizontal */
-  align-items: center; /* Menengahkan konten secara vertikal */
+  justify-content: center;
+  align-items: center;
   background: rgb(245, 245, 244);
 }
 
@@ -159,6 +160,7 @@ span {
   display: grid;
   padding: 0px 80px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-content: center;
   padding-left: 30px;
 }
 
@@ -191,10 +193,10 @@ span {
 }
 
 .aboutsyfa p {
-  text-align: justify;
+  text-align: center;
   font-size: 0.8rem;
 }
-
+/* ABOUT END */
 
 /* SERVICE START */
 .Services {
