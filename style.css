@@ -164,8 +164,8 @@ span {
   font-size: 350%;
   padding-bottom: 5%;
   padding-right: 50px;
-  color:#000000;
-  text-align: center;
+  color: #000000;
+  text-align: justify;
 }
 
 .about .content-about h2 {
@@ -190,6 +190,12 @@ span {
 .aboutsyfa p{
   text-align: justify;
   font-size: 0.8rem;
+}
+.aboutvero h2,
+.aboutsyfa h2 {
+  font-size: 120%;
+  padding-right: 10%;
+  text-align: justify;
 }
 /* ABOUT END */
 
