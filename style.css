@@ -6,7 +6,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   box-sizing: border-box;
 }
 
@@ -193,11 +193,9 @@ span {
 }
 /* ABOUT END */
 
-/* SERVICE START */
+/* SKILL START */
 .Services {
   display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #3f5255;
 }
 .Services .content-Services h1 {
@@ -208,7 +206,7 @@ span {
 }
 .services-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
   margin-bottom: 5rem;
@@ -233,7 +231,7 @@ span {
 }
 .services-list div p {
   font-size: 12px;
-  text-align: left;
+  text-align: justify;
 }
 
 .services-list div a {
@@ -251,7 +249,7 @@ span {
   background-color: rgb(245, 218, 66);
   transform: translateY(-20px);
 }
-/* SERVICE END */
+/* SKILL END */
 
 /* CONTACT START */
 .contact {
