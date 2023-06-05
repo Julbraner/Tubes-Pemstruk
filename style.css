@@ -177,6 +177,12 @@ span {
   padding-right: 10%;
 }
 
+.aboutvero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .aboutvero img,
 .aboutsyfa img {
   width: 300px;
