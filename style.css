@@ -231,7 +231,7 @@ span {
 }
 .services-list div p {
   font-size: 12px;
-  text-align: justify;
+  text-align: left;
 }
 
 .services-list div a {
